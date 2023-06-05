@@ -1,0 +1,93 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+header ul {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+header li {
+    width: 100px;
+}
+
+header a{
+    font-size: 20px;
+    text-decoration: none;
+    color: yellow;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 12px;
+}
+
+header a:hover{
+    background-color: yellow;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: black;
+    text-shadow: 4px 4px 8px rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+#hero-image-section {
+    text-align: center;
+    background-image: url("/code/images/places/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    /* padding-top: 100px; (alternativa per spostare div-section1 più in basso)*/
+}
+
+#div-section1 {
+    background-color: rgba(82, 70, 70, 0.7);
+    box-shadow: 4px 4px 4px rgba(18, 18, 18, 0.7);
+    width: 700px;
+    margin: 0px auto;
+    padding: 35px;
+    border-radius: 8px;
+    position: relative;
+    top: 300px;
+}
+
+#div-section1 h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px 4px black;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+#div-section1 p {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+#div-section1 a{
+ font-size: 24px; 
+ text-decoration: none;
+ color: black;
+ border-radius: 8px;
+ background-color: yellow;
+ padding: 5px 10px; 
+ box-shadow: 3px 4px 8px black; 
+}
+
+#div-section1 a:hover{
+    background-color: greenyellow;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}

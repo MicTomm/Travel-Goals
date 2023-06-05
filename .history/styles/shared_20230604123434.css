@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#logo a{
+    font-family: 'Oleo script', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(237, 237, 70);
+    text-shadow: 4px 4px 4px rgb(31, 29, 29);
+    text-transform: uppercase; 
+}
+
+#logo a:hover{
+    background-color: transparent;
+    
+}
