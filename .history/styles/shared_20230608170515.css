@@ -50,18 +50,19 @@ header a:hover {
 
 footer{
     background: linear-gradient(70deg, rgb(24, 24, 24), rgb(23, 23, 29));
-    padding: 25px;
+    width: 100%;
+    
 }
 
 footer ul{
     display: flex;
+    width:30%;
     justify-content: center;
 }
 
 footer li{
     width: 80px;
     height: 80px;
-    margin: 0px 10px;
 }
 
 footer img{

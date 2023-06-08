@@ -80,13 +80,13 @@
 
 #highlights h2{
     font-size: 35px;
-    text-shadow: 2px 2px 4px rgb(235, 229, 229);
+    text-shadow: 1px 1px 2px black;
     color: rgb(56, 52, 52);
 }
 
 #highlights p{
-    color: rgb(56, 52, 52);
-    text-shadow: 1px 1px 4px rgb(235, 229, 229);
+    color: rgb(79, 72, 72);
+    text-shadow: 4px 4px 1px rgb(230, 126, 126);
     font-size: 24px;
     font-weight: 300;
 }

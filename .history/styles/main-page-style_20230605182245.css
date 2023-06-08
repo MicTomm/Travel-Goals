@@ -51,8 +51,6 @@
 
 #highlights{
     text-align: center;
-    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(59, 236, 225));
-    padding: 24px  0px;
 }
 
 #highlights ul{
@@ -71,27 +69,27 @@
 
 #highlights img{
    
-    height: 100%;
     width: 100%;
     box-shadow: 2px 4px 8px rgb(0, 0, 0, 0.5);
     border-radius: 10px;
     object-fit: cover;
 }
 
+.prova{
+    width: 250px;
+    height: 190px;
+}
+
 #highlights h2{
     font-size: 35px;
-    text-shadow: 2px 2px 4px rgb(235, 229, 229);
-    color: rgb(56, 52, 52);
+    text-shadow: 1px 1px 2px black;
+    color: rgb(79, 72, 72);
 }
 
 #highlights p{
-    color: rgb(56, 52, 52);
-    text-shadow: 1px 1px 4px rgb(235, 229, 229);
+    color: rgb(79, 72, 72);
+    text-shadow: 1px 1px 2px black;
     font-size: 24px;
     font-weight: 300;
 }
 
-.destination{
-    width: 300px;
-    height: 230px;
-}

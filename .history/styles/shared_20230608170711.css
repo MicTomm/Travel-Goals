@@ -50,6 +50,7 @@ header a:hover {
 
 footer{
     background: linear-gradient(70deg, rgb(24, 24, 24), rgb(23, 23, 29));
+    width: 100%;
     padding: 25px;
 }
 

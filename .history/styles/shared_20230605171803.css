@@ -48,27 +48,6 @@ header a:hover {
     border-radius: 8px;
 }
 
-footer{
-    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(23, 23, 29));
-    padding: 25px;
-}
-
-footer ul{
-    display: flex;
-    justify-content: center;
-}
-
-footer li{
-    width: 80px;
-    height: 80px;
-    margin: 0px 10px;
-}
-
-footer img{
-    width: 100%;
-    height: 100%;
-}
-
 #logo a {
     font-family: 'Oleo script', sans-serif;
     font-size: 35px;
