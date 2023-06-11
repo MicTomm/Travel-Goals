@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(77deg, rgb(77, 77, 77), rgb(81, 81, 81));
+}
+/*
+    position: static sovrascrive il comportamento impostato per l'header nel file shared.css, al fine
+    di evitare la sovrapposizione delle prime card sull'header
+*/
+header{
+    position: static;
+}
+
+main li img{
+    height: 280px;
+    width: 300px;
+    object-fit: cover;
+}

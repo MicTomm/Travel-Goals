@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(77deg, rgb(77, 77, 77), rgb(81, 81, 81));
+    color: rgb(68, 68, 68);
+}
+
+/*
+    position: static sovrascrive il comportamento impostato per l'header nel file shared.css, al fine
+    di evitare la sovrapposizione delle prime card sull'header
+*/
+header {
+    position: static;
+}
+
+main ul {
+    width: 1200px;
+    margin: 0 auto 48px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+
+main li {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*questo tipo di selettore si chiama pseudoelemento*/
+main li:nth-of-type(3), 
+main li:nth-of-type(8){
+    grid-column: 1 / span 2;
+}
+
+main li img {
+    height: 280px;
+    width: 300px;
+    object-fit: cover;
+}
+
+/*card-content*/
+.item-content{
+    margin: 0px 12px;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+/*card "explore link"*/
+.actions{
+    text-align: right;
+}
+
+.actions a{
+    text-decoration: none;
+    color: rgb(22, 211, 218);
+    border-radius: 8px;
+    box-shadow: 2px, 2px, 4px, black;
+    padding:6px;
+    font-weight: 600;
+}
+
+.actions a:hover{
+    text-shadow: 1px 1px 2px  rgb(6, 150, 155) ;
+    background-color:rgb(227, 251, 251);
+}
+
+header a{
+    color: rgb(183, 230, 235);
+}
+
+header nav a:hover{
+    background-color: rgb(59, 59, 59);
+    color: rgb(228, 242, 243);
+}
+
+#logo a{
+    color: rgb(183, 230, 235);
+}
